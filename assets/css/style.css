@@ -82,6 +82,7 @@ img {
     margin: 0 auto;
     padding: 0 0.9375rem;
 }
+
 .py-6 {
     padding: 3.75rem 0;
 }
@@ -93,6 +94,7 @@ img {
 .pb-6 {
     padding-bottom: 3.75rem;
 }
+
 .py-7 {
     padding: 4.375rem 0;
 }
@@ -174,6 +176,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .bg_center_contain {
     background-position: center;
     background-repeat: no-repeat;
@@ -191,6 +194,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .bg_bottom_cover {
     background-position: bottom;
     background-repeat: no-repeat;
@@ -237,7 +241,7 @@ img {
 
 /* Section Heading CSS Start */
 .section_heading {
-    color:#000;
+    color: #000;
     font-size: 3rem;
     letter-spacing: 0.3px;
     text-transform: capitalize;
@@ -413,7 +417,8 @@ span.theme {
     font-weight: 400;
     font-size: 1.1rem;
 }
-.navigation-menu ul li a:hover{
+
+.navigation-menu ul li a:hover {
     color: #ffc723;
 }
 
@@ -502,9 +507,11 @@ span.theme {
 .home_latest_event .slick-list.draggable {
     height: 43.75rem;
 }
+
 .home_latest_event .slick-track {
     height: 100%;
 }
+
 .home_latest_event .latest_slides {
     height: 100%;
     margin: 0 auto;
@@ -519,6 +526,7 @@ span.theme {
     background-color: rgba(0 0 0/40%);
     background-blend-mode: multiply;
 }
+
 .latest_slides h2 {
     background-color: rgba(0 0 0/70%);
     padding: 1.25rem;
@@ -543,6 +551,7 @@ span.theme {
     font-size: 2.1875rem;
     opacity: 1;
 }
+
 .home_latest_event .slick-prev {
     left: 0;
     z-index: 1;
@@ -562,7 +571,7 @@ span.theme {
 .home_latest_event .slick-next svg {
     width: 5rem;
     height: 5rem;
-    fill:#ffc723;
+    fill: #ffc723;
     opacity: 0.5;
     transition: all 0.3s ease;
 }
@@ -572,6 +581,7 @@ span.theme {
     opacity: 1;
     transform: scale(1.05);
 }
+
 /* Home Latest CSS Start */
 
 /* Home Cards CSS Start */
@@ -580,21 +590,229 @@ span.theme {
     height: 100%;
     transition: 0.2s all ease-in-out;
 }
+
 .home_card_img_outer {
     height: 23.75rem;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
+
 .home_card_img {
     height: 100%;
     width: 100%;
 }
+
 .home_card_txt {
     padding: 1.25rem;
 }
+
 .home_cards_wrap {
     max-width: 1100px;
     margin: 0 auto;
 }
+
 /* Home Cards CSS End*/
+
+
+/* Home Why CSS Start */
+.home_more_setion {
+    background-position: right;
+    background-size: cover;
+    background-color: rgba(0 0 0/40%);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+.home_more_wrap ul li{
+    margin-bottom: 10px;
+}
+.home_more_wrap ul li:last-child{
+    margin-bottom: 0;
+}
+.home_more_wrap ul li svg {
+    height: 15px;
+    width: 15px;
+    fill: #23ff65;
+    margin-right: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.home_more_wrap p{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: flex-start;
+}
+.home_more_wrap {
+    max-width: 500px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    padding: 1.25rem;
+}
+/* Home Why CSS End */
+
+
+/* Footer CSS Start */
+.footer {
+    color: #fff;
+    padding: 2rem 0 0 0;
+    text-align: center;
+    box-shadow: #ffc723 0px 3px 15px;
+    background-image: url(../images/home_banner_img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgba(0 0 0/80%);
+}
+
+.footer_logo {
+    background-image: url(../images/logo.svg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 4.75rem;
+    width: 18.75rem;
+}
+
+.footer .footer-logos {
+    margin-bottom: 2.8125rem;
+}
+
+.footer .footer-logo {
+    padding-bottom: 0.9375rem;
+}
+
+.footer .footer-logo img {
+    width: 11.25rem;
+}
+
+.footer .footer-links {
+    padding: 1rem 0;
+}
+
+.footer .footer-links a {
+    padding: 0 7px;
+    font-size: 1.1rem;
+    color: #fff;
+    display: inline-block;
+    transition: 0.3s all ease-in-out;
+}
+
+
+
+.footer .footer-links ul li {
+    padding: 0 15px 5px 0;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.footer .footer-links ul li:last-child {
+    padding-right: 0;
+}
+
+.logo-bottom a {
+    color: #fff;
+    font-size: 1.875rem;
+}
+
+.footer-links a:hover {
+    color: #ffc723;
+}
+
+.footer a i {
+    font-size: 0.75rem;
+    padding-right: 0.625rem;
+}
+
+.footer .copyright .logo {
+    width: 6.875rem;
+}
+
+.footer .copyright p {
+    padding-bottom: 1.25rem;
+}
+
+.footer .copyright p:last-child {
+    padding-bottom: 0;
+}
+
+.copyright-text p {
+    color: #fff;
+}
+
+.after-footer {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0.9375rem 0 0.9375rem;
+    color: #000;
+    font-size: 0.9375rem;
+}
+
+.after-footer p {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 0.9375rem;
+}
+
+.after-footer .before-footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ssl-certi-inner {
+    height: 3rem;
+    width: 15.75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+.after-footer .col-12 {
+    align-items: center;
+    color: #000;
+    font-size: 0.9375rem;
+}
+
+.after-footer .col-12 a {
+    color: #000
+}
+
+.after-footer .col-12 a:hover {
+    color: #afbff9;
+}
+.follow_heading {
+    font-size: 1.6rem;
+}
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links a {
+    background-color: #ffc723;
+    color: #fff;
+    margin: 0 5px;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s all ease-in-out;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+}
+.footer_border_top{
+    border-top: 1px solid #ffc723;
+}
+.footer_border_bottom{
+    border-bottom: 1px solid #ffc723;
+}
+/* Footer CSS End */
