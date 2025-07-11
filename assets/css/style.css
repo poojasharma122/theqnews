@@ -805,6 +805,11 @@ span.theme {
     justify-content: center;
     transition: 0.4s all ease-in-out;
 }
+.social-links a svg {
+    height: 20px;
+    width: 20px;
+    fill: #000;
+}
 
 .social-links a:hover {
     transform: translateY(-3px);
@@ -815,4 +820,5 @@ span.theme {
 .footer_border_bottom{
     border-bottom: 1px solid #ffc723;
 }
+
 /* Footer CSS End */
