@@ -1138,8 +1138,7 @@ color: #ffc723;
     width: 100%;
 }
 .guides_desc_boxes {
-  border-bottom: 1px solid #b1b1b1;
+  border-bottom: 1px dotted #b1b1b1;
     padding: 1.25rem;
-    margin-bottom: 1.5625rem;
 }
 /* Guides Description  CSS End*/
