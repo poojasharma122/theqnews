@@ -269,7 +269,7 @@ span.theme {
 }
 
 .text_dark {
-    color: #222222;
+    color: #000000;
 }
 
 .aoshide {
@@ -820,7 +820,7 @@ span.theme {
 
 
 
-/*Pages Banner CSS Start */
+/* Latest News CSS Start */
 .sub_banner {
     height: 35.875rem;
     background-color: rgba(0 0 0/70%);
@@ -840,15 +840,12 @@ span.theme {
 }
 
 .sub_banner_content h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #fff;
     line-height: 1.4;
     max-width: 40.625rem;
     letter-spacing: 0.5px;
 }
-
-/* Banner CSS Start */
-
 .news_image_outer {
     height: 300px;
     width: 100%;
@@ -945,4 +942,52 @@ color: #ffc723;
     padding: 1.25rem;
     background-color: #fff;
     border-radius: 1.25rem;
+    height: 100%;
 }
+
+/* Latest News CSS End */
+
+
+/* Teams Page CSS Start */
+.after_banner_content {
+    max-width: 81.25rem;
+}
+.after_banner_content p {
+    font-size: 1.3rem;
+}
+.teams_info p svg {
+    height: 25px;
+    width: 25px;
+    fill: #ffc723;
+    display: inline-block;
+    margin-right: 0.3125rem;
+}
+.teams_cards {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1.25rem;
+    border-radius: 1.25rem;
+    overflow: hidden;
+    transition: 1.3s all ease-in-out;
+    background-color: #000000;
+    height: 100%;
+}
+.teams_cards_icon_outer {
+    height: 4.375rem;
+    width: 100%;
+}
+.teams_cards_icon{
+    height: 100%;
+}
+.teams_info {
+    padding: 1.25rem 0 0 0;
+}
+.teams_info h3 {
+    font-size: 1.6rem;
+}
+.teams_cards.light {
+    background: #fff;
+}
+.teams_cards.light  .teams_info p svg {
+    fill: #000;
+}
+/* Teams Page CSS End */
