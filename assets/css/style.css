@@ -1126,3 +1126,20 @@ color: #ffc723;
 
 
 /* Guides CSS End */
+
+/* Guides Description  CSS Start */
+.inner_pages_banner {
+    height: 34.375rem;
+    width: 100%;
+}
+
+.guides_desc_img.bg_center_cover {
+    height: 450px;
+    width: 100%;
+}
+.guides_desc_boxes {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1.25rem;
+    margin-bottom: 1.5625rem;
+}
+/* Guides Description  CSS End*/
