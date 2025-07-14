@@ -1141,4 +1141,10 @@ color: #ffc723;
   border-bottom: 1px dotted #b1b1b1;
     padding: 1.25rem;
 }
+.fantasy_links {
+    color:#191919;
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
 /* Guides Description  CSS End*/
