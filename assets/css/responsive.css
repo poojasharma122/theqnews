@@ -62,6 +62,9 @@
         height: 2.5rem;
         width: 2.5rem;
     }
+    .news-form-info, .news-form-box {
+        min-height: unset;
+    }
 }
 
 @media (max-width: 767px) {
