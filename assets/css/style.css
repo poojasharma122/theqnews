@@ -1203,6 +1203,9 @@ color: #ffc723;
     color:#ffc723;
 
 }
+.newsletter-wrap input::placeholder{
+    color:#ffc723;
+}
 .newsletter-wrap .row {
     max-width: 43rem;
 
