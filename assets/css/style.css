@@ -1044,3 +1044,85 @@ color: #ffc723;
     padding: 4rem  1.25rem;
 }
 /* Events CSS End */
+
+/* Guides CSS Start */
+.guides_cards {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+}
+
+.guides_image_outer {
+    overflow: hidden;
+    height: 20rem;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    flex-shrink: 0;
+}
+
+
+.guides_image {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.guides_content {
+    padding: 1.5rem 0.3125rem 1.5rem 0.3125rem;
+    position: relative;
+    z-index: 2;
+    background: transparent;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.guides_content h5 {
+    color: #191919;
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: 600;
+    z-index: 2;
+    line-height: 1.3;
+}
+
+.guides_content::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0.625rem;
+    width: 100%;
+    background-color: #ffc723;
+    transition: all 0.3s linear;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.guides_cards:hover .guides_content::before {
+    height: 100%;
+}
+
+.guides_image_outer,
+.guides_image {
+    z-index: 2;
+}
+
+.guides_content {
+    z-index: 2;
+    position: relative;
+}
+
+.guides_content::before {
+    z-index: 1;
+}
+
+
+/* Guides CSS End */
