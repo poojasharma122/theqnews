@@ -97,6 +97,9 @@
     .teams_info h3 {
         font-size: 1.5rem;
     }
+    .guides_desc_boxes {
+        padding: 1.25rem 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -202,6 +205,14 @@
     .news_image_outer {
         height: 25.75rem;
     }
+    .guides_description_content_wrap h1 {
+        line-height: 1.4;
+        font-size: 1.7rem;
+    }
+    .guides_desc_boxes h2 {
+        line-height: 1.4;
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -254,5 +265,8 @@
     }
     .home_more_wrap p {
         font-size: 1.1rem;
+    }
+    .guides_description_content_wrap h1 {
+        font-size: 1.5rem;
     }
 }
