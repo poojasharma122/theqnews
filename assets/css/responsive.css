@@ -152,6 +152,16 @@
     .footer_logo {
         width: 16.75rem;
     }
+    .sub_banner {
+        height: 30.875rem;
+    }
+    .sub_banner_content h1 {
+        font-size: 2.5rem;
+    }
+    .sub_banner_content h4 {
+        line-height: 1.4;
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -181,5 +191,10 @@
     .footer_logo {
         width: 14.75rem;
     }
-
+    .sub_banner {
+        height: 25.875rem;
+    }
+    .sub_banner_content h4 {
+        font-size: 1.1rem;
+    }
 }

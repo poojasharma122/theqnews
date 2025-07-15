@@ -526,7 +526,7 @@ span.theme {
 .latest_slides h2 {
     background-color: rgba(0 0 0/70%);
     padding: 1.25rem;
-    border-radius: 50px;
+    border-radius:3.125rem;
     color: #ffc723;
     font-size: 2rem;
 }
@@ -604,7 +604,7 @@ span.theme {
 }
 
 .home_cards_wrap {
-    max-width: 1100px;
+    max-width: 68.75rem;
     margin: 0 auto;
 }
 
@@ -621,14 +621,14 @@ span.theme {
     background-attachment: fixed;
 }
 .home_more_wrap ul li{
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 .home_more_wrap ul li:last-child{
     margin-bottom: 0;
 }
 .home_more_wrap ul li svg ,.events_cards_content ul li svg {
-    height: 15px;
-    width: 15px;
+    height: 0.9375rem;
+    width: 0.9375rem;
     fill: #23ff65;
     margin-right: 5px;
     display: inline-block;
@@ -643,7 +643,7 @@ span.theme {
     align-items: flex-start;
 }
 .home_more_wrap {
-    max-width: 500px;
+    max-width: 31.25rem;
     background-color: transparent;
     backdrop-filter: blur(20px);
     padding: 1.25rem;
@@ -690,7 +690,7 @@ span.theme {
 }
 
 .footer .footer-links a {
-    padding: 0 7px;
+    padding: 0 0.5rem;
     font-size: 1.1rem;
     color: #fff;
     display: inline-block;
@@ -700,7 +700,7 @@ span.theme {
 
 
 .footer .footer-links ul li {
-    padding: 0 15px 5px 0;
+    padding: 0 0.9375rem 0.3125rem 0;
     font-size: 1rem;
     display: inline-block;
 }
@@ -797,15 +797,15 @@ span.theme {
     margin: 0 5px;
     width: 2.5rem;
     height: 2.5rem;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.4s all ease-in-out;
 }
 .social-links a svg {
-    height: 20px;
-    width: 20px;
+    height: 1.25rem;
+    width: 1.25rem;
     fill: #000;
 }
 
@@ -850,7 +850,7 @@ span.theme {
     letter-spacing: 0.5px;
 }
 .news_image_outer {
-    height: 300px;
+    height: 18.75rem;
     width: 100%;
     overflow: hidden;
 }
@@ -968,8 +968,8 @@ color: #ffc723;
     font-size: 1.3rem;
 }
 .teams_info p svg {
-    height: 25px;
-    width: 25px;
+    height: 1.5625rem;
+    width: 1.5625rem;
     fill: #ffc723;
     display: inline-block;
     margin-right: 0.3125rem;
@@ -1134,8 +1134,8 @@ color: #ffc723;
     width: 100%;
 }
 
-.guides_desc_img.bg_center_cover {
-    height: 450px;
+.guides_desc_img {
+    height: 28.125rem;
     width: 100%;
 }
 .guides_desc_boxes {
@@ -1157,20 +1157,20 @@ color: #ffc723;
     margin-bottom: 1.875rem;
 }
 .how_we_select_cards_content p svg {
-    height: 17px;
-    width: 17px;
+    height: 1.0625rem;
+    width: 1.0625rem;
     fill: #4c4c4c;
     margin-top: -4px;
 }
 .home_plan_img_outer.icon_img {
     height: 15.625rem;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 .home_plan_cards.big_img  .home_plan_img_outer.icon_img {
     height: 18.625rem;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 .home_plan_img {
     height: 3.75rem;
