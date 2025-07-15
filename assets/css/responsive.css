@@ -79,7 +79,7 @@
         padding: 0 1rem;
     }
     .events_cards_content {
-        padding: 1.5rem  0rem;
+        padding: 1.5rem  0 0 0;
     }
     .events_outer_image {
         height: 21.875rem;
@@ -188,6 +188,10 @@
     .events_outer_image {
         height: 18.875rem;
     }
+    .py-5 {
+        padding-top: 2rem!important;
+        padding-bottom: 2rem!important;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -234,5 +238,8 @@
     }
     .guides_content h5 {
         font-size: 1.1rem;
+    }
+    .footer-pages-content-grp h3 {
+        font-size: 1.4rem;
     }
 }
