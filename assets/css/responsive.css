@@ -24,7 +24,9 @@
     .banner {
         height: 40.875rem;
     }
-
+    .news-title {
+        font-size: 1.3rem;
+    }
 }
 
 @media (max-width: 991px) {
@@ -89,6 +91,12 @@
         font-size: 1.5rem;
     }
 
+    .news-desc {
+        font-size: 1rem;
+    }
+    .teams_info h3 {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -112,7 +120,18 @@
     .home_card_img_outer {
         height: 20.75rem;
     }
-
+    .py-6 {
+        padding: 2.75rem 0;
+    }
+    .after_banner_content p {
+        font-size: 1.2rem;
+    }
+    .teams_info h3 {
+        font-size: 1.4rem;
+    }
+    .events_desc {
+        font-weight: 500;
+    }
 }
 
 
@@ -136,9 +155,7 @@
     .pt-5 {
         padding-top: 2rem!important;
     }
-    .py-6 {
-        padding: 2.75rem 0;
-    }
+
     .home_latest_event .latest_slides {
         padding: 0 0 1.125rem 0;
     }
@@ -156,11 +173,20 @@
         height: 30.875rem;
     }
     .sub_banner_content h1 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
     .sub_banner_content h4 {
         line-height: 1.4;
         font-size: 1.2rem;
+    }
+    .after_banner_content p {
+        font-size: 1.1rem;
+    }
+    .footer_logo {
+        width: 15.75rem;
+    }
+    .events_outer_image {
+        height: 18.875rem;
     }
 }
 
@@ -195,6 +221,18 @@
         height: 25.875rem;
     }
     .sub_banner_content h4 {
+        font-size: 1.1rem;
+    }
+    .news-title {
+        font-size: 1.3rem;
+    }
+    .after_banner_content p {
+        font-size: 1rem;
+    }
+    .events_outer_image {
+        height: 16.875rem;
+    }
+    .guides_content h5 {
         font-size: 1.1rem;
     }
 }

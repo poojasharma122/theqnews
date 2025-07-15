@@ -40,7 +40,7 @@ p {
     padding: 0;
     margin: 0;
     font-family: "Roboto", sans-serif;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
 }
 
 ul {
@@ -225,7 +225,7 @@ img {
 }
 
 ::-webkit-scrollbar-track {
-    background: #fff;
+    background: #000;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -985,7 +985,11 @@ color: #ffc723;
 }
 .teams_cards_icon_outer {
     height: 4.375rem;
-    width: 100%;
+    width: 4.375rem;
+}
+.teams_sec_wrap>h3 {
+    text-decoration: underline;
+    text-underline-offset: 8px;
 }
 .teams_cards_icon{
     height: 100%;
@@ -1007,6 +1011,9 @@ color: #ffc723;
     background-blend-mode: multiply;
     background-color: rgba(0 0 0/80%);
 }
+.teams_info p {
+    font-weight: 500;
+}
 /* Teams Page CSS End */
 
 
@@ -1017,7 +1024,9 @@ color: #ffc723;
     /* padding-top: 50.66%; */
     height: 100%;
   }
-
+  .events_desc {
+    font-size: 1.1rem;
+}
   
   .events_outer_image::before {
     content: "";
