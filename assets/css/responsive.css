@@ -5,7 +5,10 @@
 
 
 @media screen and (max-width:1199px) {
-
+    .banner_wrap {
+        padding-left: 0;
+        padding: 0 0.9375rem;
+    }
 
 
 }
@@ -15,7 +18,12 @@
     html {
         font-size: 15px;
     }
-
+    .banner {
+        background-position: center;
+    }
+    .banner {
+        height: 40.875rem;
+    }
 
 }
 
@@ -74,11 +82,35 @@
     .events_outer_image {
         height: 21.875rem;
     }
+    .banner_content h1 {
+        font-size: 3rem;
+    }
+    .latest_slides h2 {
+        font-size: 1.5rem;
+    }
+
 }
 
 @media (max-width: 767px) {
     html {
         font-size: 14px;
+    }
+
+    .banner {
+        height: 32.875rem;
+    }
+    .section_heading {
+        font-size: 2.5rem;
+    }
+    .home_latest_event .slick-list.draggable {
+        height: 35.75rem;
+    }
+    .home_card_txt h3 {
+        font-size: 1.4rem;
+        line-height: 1.3;
+    }
+    .home_card_img_outer {
+        height: 20.75rem;
     }
 
 }
@@ -88,7 +120,38 @@
 
 @media screen and (max-width:575px) {
 
-
+    .banner_content h1 {
+        font-size: 2.5rem;
+    }
+    .banner_content p {
+        font-size: 1rem;
+    }
+    .banner  h3 {
+        line-height: 1.4;
+        font-size: 1.3rem;
+    }
+    .banner {
+        height: 35.875rem;
+    }
+    .pt-5 {
+        padding-top: 2rem!important;
+    }
+    .py-6 {
+        padding: 2.75rem 0;
+    }
+    .home_latest_event .latest_slides {
+        padding: 0 0 1.125rem 0;
+    }
+    .home_latest_event .slick-prev svg, .home_latest_event .slick-next svg {
+        width: 3rem;
+        height: 3rem;
+    }
+    .home_latest_event .slick-list.draggable {
+        height: 30.75rem;
+    }
+    .footer_logo {
+        width: 16.75rem;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -99,6 +162,24 @@
         width: 2rem;
         height: 2rem;
     }
-
+    .banner_content h1 {
+        font-size: 2rem;
+    }
+    .banner  h3 {
+        font-size: 1.1rem;
+    }
+    .section_heading {
+        font-size: 2rem;
+    }
+    .home_latest_event .slick-list.draggable {
+        height: 25.75rem;
+    }
+    .latest_slides h2 {
+        padding: 1.125rem;
+        font-size: 1.1rem;
+    }
+    .footer_logo {
+        width: 14.75rem;
+    }
 
 }
