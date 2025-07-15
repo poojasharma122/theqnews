@@ -132,6 +132,13 @@
     .events_desc {
         font-weight: 500;
     }
+    .home_more_wrap>p {
+        display: block;
+    }
+    .home_more_wrap ul li svg, .events_cards_content ul li svg {
+        margin-top: 6px;
+    }
+
 }
 
 
@@ -192,6 +199,9 @@
         padding-top: 2rem!important;
         padding-bottom: 2rem!important;
     }
+    .news_image_outer {
+        height: 25.75rem;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -241,5 +251,8 @@
     }
     .footer-pages-content-grp h3 {
         font-size: 1.4rem;
+    }
+    .home_more_wrap p {
+        font-size: 1.1rem;
     }
 }
