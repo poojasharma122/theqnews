@@ -1205,27 +1205,6 @@ color: #ffc723;
 .home_plan_cards:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.newsletter-wrap input {
-    width: 80%;
-    background: transparent;
-    outline: none;
-    border: none;
-    border-bottom: 1px solid #ffc723;
-    padding: 0.6235rem;
-    color:#ffc723;
-
-}
-.newsletter-wrap input::placeholder{
-    color:#ffc723;
-}
-.newsletter-wrap .row {
-    max-width: 43rem;
-
-}
-.about_newsletter_sec{
-    border-top: 1px solid #ffc723;
-    padding-top: 4rem;
-}
 /* About Page CSS End */
 
 /* Contact CSS Start */
