@@ -500,7 +500,10 @@ span.theme {
 /* Banner CSS Start */
 
 /* Home Latest CSS Start */
-
+.home_latest_sub {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 .home_latest_event .slick-list.draggable {
     height: 43.75rem;
 }
@@ -817,13 +820,33 @@ span.theme {
 .social-links a:hover {
     transform: translateY(-3px);
 }
-/* .footer_border_top{
-    border-top: 1px solid #ffc723;
+.footer_social_links_sec {
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
-.footer_border_bottom{
-    border-bottom: 1px solid #ffc723;
-} */
 
+.footer_social_links_sec::before,
+.footer_social_links_sec::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px; 
+    background-color: #ffc723;
+    width: 40rem;
+}
+
+.footer_social_links_sec::before {
+    top: 0;
+}
+
+.footer_social_links_sec::after {
+    bottom: 0;
+}
+.bottom_bar {
+    background-color: #000;
+}
 /* Footer CSS End */
 
 
@@ -1071,7 +1094,7 @@ color: #ffc723;
     height: 100%;
     position: relative;
     overflow: hidden;
-    background: #fff;
+    background: #000;
 }
 
 .guides_image_outer {
@@ -1102,12 +1125,16 @@ color: #ffc723;
 }
 
 .guides_content h5 {
-    color: #191919;
+    color: #fff;
     position: relative;
     font-size: 1.2rem;
     font-weight: 600;
     z-index: 2;
     line-height: 1.3;
+}
+
+.guides_cards:hover .guides_content h5{
+    color: #000;
 }
 
 .guides_content::before {
