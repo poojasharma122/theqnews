@@ -1183,6 +1183,10 @@ color: #ffc723;
   border-bottom: 1px dotted #b1b1b1;
     padding: 1.25rem;
 }
+.guides_desc_boxes ul li {
+    list-style-type: disc;
+    margin-left: 1.25rem;
+}
 .fantasy_links {
     color:#191919;
     font-weight: 400;
